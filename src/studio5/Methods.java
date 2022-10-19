@@ -17,6 +17,8 @@ public class Methods {
 		double distance = 0;
 		// FIXME: Hint use Math methods (e.g. Math.sqrt) to compute the distance
 		
+		distance = Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
+		
 		return distance;
 	}
 
